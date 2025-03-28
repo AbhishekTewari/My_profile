@@ -1,0 +1,42 @@
+/*
+Theme Name: MyProfile
+Theme URI: https://abhishektewari.com/
+Description: Theme contains multiple functionality which shows the variations in my user profile.
+Author URI: https://abhishektewari.com/
+Tags: Profile,Abhishek Tiwari,tiwariabhishek,tiwariabhishek687,wordpress developer,theme developer,PHP developer, Jquery, Javascript, AJAX, API, Payment Integraton, Plugin Integratons, Software Engineer, AWS.
+License: GNU General Public License version 3.0
+License URI: https://abhishektewari.com/
+Version: 1.1
+Text Domain: my_profile_at
+*/
+
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Footer Styles */
+footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: #134060;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .at-main-content {
+        padding: 10px 20px 0px 0px !important;
+    }
+}

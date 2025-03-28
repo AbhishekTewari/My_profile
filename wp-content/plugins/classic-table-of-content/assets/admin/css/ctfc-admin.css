@@ -1,0 +1,77 @@
+.ctfc-main-admin-dashboard-wrap{
+    margin-left: -20px;
+}
+.ctfc-admin-dashboard-heading{
+    /* background: #344054; */
+    background-image: linear-gradient(227deg, #031327d4 0%, #031327d4 35%, #083673d4 100%);
+    color: white;
+    padding: 10px;
+}
+.ctfc-admin-dashboard-heading h1{
+    color: white;
+    font-family: Luminari, fantasy;
+}
+.ctfc-admin-settings-main-wrap{
+    padding: 30px;
+    width: 100%;
+}
+
+/* Style the tab */
+h1 {
+  text-align: center;
+  font: 300 40px "open sans", sans-serif;
+  color: #666;
+  text-transform: uppercase;
+}
+.ctfc-tabs {
+  width: 80%;
+  margin: 10px auto;
+  position: relative;
+}
+.ctfc-tab-buttons span {
+  font: 400 14px "open sans", sans-serif;
+  color: #333;
+  background: #eee;
+  cursor: pointer;
+  border-bottom: 2px solid #ddd;
+  display: block;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.ctfc-tab-content {
+  border-bottom: 3px solid #ddd;
+  padding: 15px;
+  background: #eee;
+  display: inline-block;
+  font: 400 13px "open sans", sans-serif;
+  color: #333;
+}
+#ctfc-lamp {
+  width: 33.3%;
+  height: 2px;
+  background: #333;
+  display: block;
+  position: absolute;
+  top: 40px;
+  transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+#ctfc-lamp.ctfc-tab1 {
+  left: 0;
+  transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+#ctfc-lamp.ctfc-tab2 {
+  left: 33%;
+  transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}

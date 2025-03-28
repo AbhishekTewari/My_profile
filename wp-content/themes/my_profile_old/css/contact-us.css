@@ -1,0 +1,138 @@
+.at-contact-main-div{
+    display: flex;
+}
+.at-contact-common{
+    margin: 15px;
+}
+.at-form-div{
+    width: 30%;
+}
+.at-right-contact-info{
+    width: 70%;
+    padding: 40px;
+}
+/* Form container */
+.at-contact-form {
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 15px; /* Spacing between elements */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* Labels */
+.at-contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+/* Input and Textarea fields */
+.at-contact-form input,
+.at-contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.at-contact-form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 120px;
+}
+
+/* Focus styles */
+.at-contact-form input:focus,
+.at-contact-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Placeholder styling for better appearance */
+.at-contact-form input::placeholder,
+.at-contact-form textarea::placeholder {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* Button Styling */
+.at-contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.at-contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.at-profile-description{
+    display: flex;
+    align-items: center;
+}
+
+.at-profile-img img{
+    width:150px;
+    height:150px;
+}
+
+.at-personla-information{
+    margin-left:20px;
+}
+
+.at-personla-information a{
+    text-decoration: none;
+    color: black;
+}
+
+.at-profile-main-description p{
+    line-height: 2em;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .at-contact-main-div {
+        display: block;
+    }
+    .at-form-div{
+        width: 100%;
+    }
+    .at-contact-form{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .at-right-contact-info{
+        padding: 0px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .at-profile-img img{
+        width:100px;
+        height:100px;
+    }
+
+    .at-personla-information{
+        margin-left:10px;
+    }
+}
