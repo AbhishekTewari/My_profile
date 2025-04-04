@@ -4,8 +4,6 @@
     */
 ?>
 <?php get_header()?>
-<?php echo do_shortcode("[ib_slider_shortcode slider=4]"); ?>
-
 <div class="at-contact-main-div" >
     <div class="at-form-div at-contact-common" >
         <?php echo do_shortcode('[contact-form-7 id="a89d1a2" title="Contact Form"]'); ?>
