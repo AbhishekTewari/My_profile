@@ -4,7 +4,7 @@
     */
 ?>
 <?php get_header(); ?>
-asdadsadaasd
+asdadsadaasdasdasd
     <?php 
        $categories = get_terms(array(
         'taxonomy'   => 'project_category', // Default WordPress category taxonomy
