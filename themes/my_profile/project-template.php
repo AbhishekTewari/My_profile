@@ -4,7 +4,6 @@
     */
 ?>
 <?php get_header(); ?>
-test autdeploy
     <?php 
        $categories = get_terms(array(
         'taxonomy'   => 'project_category', // Default WordPress category taxonomy
